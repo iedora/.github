@@ -49,9 +49,8 @@ bun run dev:up    # Boot Go backend + Postgres + NATS + MinIO
 bun run dev       # Next.js dev server on :3000
 ```
 
-The app runs three hostnames from a single Next.js container:
+The app runs two hostnames from a single Next.js container:
 - **menu.iedora.com** — product dashboard + public menus
-- **core.iedora.com** — auth sign-in, admin panels
 - **iedora.com** — brand landing page
 
 ## Principles
