@@ -29,7 +29,7 @@ We are a small house in Oporto and Lisboa. Patient work, quiet interfaces.
 
 We build production-grade software for real-world operations.
 
-Our flagship — **[menu](https://github.com/iedora/web)** — is a digital menu platform for the restaurant and hospitality industry: a drag-and-drop menu builder, QR code publishing, real-time analytics, and multi-language support. Designed for durability, not for demos.
+Our flagship — **[menu](https://github.com/iedora/frontend)** — is a digital menu platform for the restaurant and hospitality industry: a drag-and-drop menu builder, QR code publishing, real-time analytics, and multi-language support. Designed for durability, not for demos.
 
 ### AI Training
 
