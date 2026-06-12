@@ -7,19 +7,13 @@
 <h1 align="center">iedora</h1>
 <p align="center"><strong>The Driver of the House.</strong></p>
 
-<p align="center">
-  <em>Scalable infrastructure · AI-integrated products · Pragmatic engineering</em>
-</p>
-
 ---
 
 ## About Us
 
-**iedora** is a software company built on the principle that technology should be durable, fast, and high-quality.
+**iedora** is a software company. We build tools for restaurants: digital menus, QR code publishing, analytics. Small house in Oporto and Lisboa.
 
-Our name comes from two roots: **ie** (家, the Japanese word for *house*) and **dora** (short for *driver* — the component that connects, commands, and powers a system). Together, iedora means **"The Driver of the House"** — the core technological engine that modernizes businesses from within.
-
-We are a small house in Oporto and Lisboa. Patient work, quiet interfaces.
+Our name comes from two roots: **ie** (家, Japanese for *house*) and **dora** (short for *driver*). Together, iedora means "The Driver of the House" — the engine that modernizes a business from the inside.
 
 ---
 
@@ -27,49 +21,31 @@ We are a small house in Oporto and Lisboa. Patient work, quiet interfaces.
 
 ### Products
 
-We build production-grade software for real-world operations.
-
-Our flagship — **[menu](https://github.com/iedora/frontend)** — is a digital menu platform for the restaurant and hospitality industry: a drag-and-drop menu builder, QR code publishing, real-time analytics, and multi-language support. Designed for durability, not for demos.
+Our flagship is **[menu](https://github.com/iedora/frontend)**: a drag-and-drop menu builder, QR code publishing, real-time analytics, multi-language support. Free for one restaurant.
 
 ### AI Training
 
-We upskill teams and businesses in AI implementation — from foundational concepts to production deployment. Practical, hands-on programs focused on what actually works, not what's trending.
+We run hands-on AI training for teams. From basic concepts to production deployment. Focused on what works, not what is trending.
 
 ### Technical Consulting
 
-Expert guidance on architecture, infrastructure, and software delivery. We help teams design systems that scale without complexity, and ship without compromise.
+Architecture, infrastructure, software delivery. We help teams design systems that scale without adding complexity.
 
 ---
 
 ## Engineering Principles
 
-Everything we build follows these commitments:
-
-- **12-factor config** — Every service binds configuration from the environment. No hardcoded secrets, no environment-specific branches.
-- **Vertical slices** — Features own their UI, loaders, and server actions. No cross-cutting data layers, no leaky abstractions.
-- **Backend-owns-data** — Go services are the source of truth for all auth and persistence. The frontend is a thin typed pass-through with zero data layer.
-- **Observability-first** — Every service boots OpenTelemetry at startup. Traces, metrics, and logs flow via OTLP to a Grafana LGTM stack; baggage propagates tenant, user, and request IDs through every call.
-- **Integration tests first** — Core logic is tested against real dependencies (PostgreSQL via testcontainers, NATS JetStream, S3-compatible storage). Unit tests cover pure functions; everything else earns its keep through integration coverage.
-- **Conventional commits** — Enforced by pre-commit hooks. Every commit message carries its intent.
-
----
-
-## Our Ecosystem
-
-| Layer | Practice |
-|-------|----------|
-| **Backend** | Go · chi · pgx · NATS JetStream · Ed25519 JWTs |
-| **Frontend** | Next.js · React · TypeScript · Tailwind CSS · Radix UI |
-| **Infrastructure** | Docker Swarm · Ansible · OpenTofu · Traefik · Authelia SSO |
-| **Observability** | OpenTelemetry → Grafana LGTM |
-| **Storage** | PostgreSQL · S3-compatible (R2 / MinIO) |
-| **CI/CD** | GitHub Actions · Renovate |
-| **Package** | Bun (workspaces) |
+- **12-factor config** — Every service reads config from the environment. No hardcoded secrets.
+- **Vertical slices** — Features own their UI, loaders, and server actions. No leaky abstractions.
+- **Backend-owns-data** — Go services are the source of truth. The frontend is a typed pass-through.
+- **Observability-first** — OpenTelemetry at startup. Traces, metrics, logs to Grafana LGTM.
+- **Integration tests first** — Core logic tested against Postgres, NATS, S3. Unit tests cover pure functions.
+- **Conventional commits** — Enforced by pre-commit hooks.
 
 ---
 
 ## Work with Us
 
-We take on select projects in product development, AI implementation, and technical consulting.
+Select projects in product development, AI implementation, and technical consulting.
 
-Reach out at **[hello@iedora.com](mailto:hello@iedora.com)**.
+[hello@iedora.com](mailto:hello@iedora.com)
