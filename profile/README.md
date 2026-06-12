@@ -11,7 +11,7 @@
 
 ## About Us
 
-**iedora** is a software company. We build tools for restaurants: digital menus, QR code publishing, analytics. Small house in Oporto and Lisboa.
+**iedora** is a software company. We build tools for restaurants: digital menus, QR code publishing, analytics. Small team based in Portugal.
 
 Our name comes from two roots: **ie** (家, Japanese for *house*) and **dora** (short for *driver*). Together, iedora means "The Driver of the House" — the engine that modernizes a business from the inside.
 
@@ -44,8 +44,23 @@ Architecture, infrastructure, software delivery. We help teams design systems th
 
 ---
 
+## Our Ecosystem
+
+| Layer | Practice |
+|-------|----------|
+| **Backend** | Go, chi, pgx, NATS JetStream, Ed25519 JWTs |
+| **Frontend** | Next.js, React, TypeScript, Tailwind CSS, Radix UI |
+| **Infrastructure** | Docker Swarm, Ansible, OpenTofu, Traefik, Authelia SSO |
+| **Observability** | OpenTelemetry to Grafana LGTM |
+| **Storage** | PostgreSQL, S3 (R2 / MinIO) |
+| **CI/CD** | GitHub Actions, Renovate |
+| **Package** | Bun workspaces |
+
+---
+
 ## Work with Us
 
 Select projects in product development, AI implementation, and technical consulting.
 
 [hello@iedora.com](mailto:hello@iedora.com)
+[+351 917 140 356](tel:+351917140356)
