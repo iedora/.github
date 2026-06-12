@@ -13,7 +13,7 @@
 
 **iedora** is a software company. We build tools for restaurants: digital menus, QR code publishing, analytics. Small team based in Portugal.
 
-Our name comes from two roots: **ie** (家, Japanese for *house*) and **dora** (short for *driver*). Together, iedora means "The Driver of the House" — the engine that modernizes a business from the inside.
+Our name comes from two roots: **ie** (家, Japanese for *house*) and **dora** (short for *driver*). Together, iedora means "The Driver of the House": the engine that modernizes a business from the inside.
 
 ---
 
@@ -35,12 +35,12 @@ Architecture, infrastructure, software delivery. We help teams design systems th
 
 ## Engineering Principles
 
-- **12-factor config** — Every service reads config from the environment. No hardcoded secrets.
-- **Vertical slices** — Features own their UI, loaders, and server actions. No leaky abstractions.
-- **Backend-owns-data** — Go services are the source of truth. The frontend is a typed pass-through.
-- **Observability-first** — OpenTelemetry at startup. Traces, metrics, logs to Grafana LGTM.
-- **Integration tests first** — Core logic tested against Postgres, NATS, S3. Unit tests cover pure functions.
-- **Conventional commits** — Enforced by pre-commit hooks.
+- **12-factor config**: Every service reads config from the environment. No hardcoded secrets.
+- **Vertical slices**: Features own their UI, loaders, and server actions. No leaky abstractions.
+- **Backend-owns-data**: Go services are the source of truth. The frontend is a typed pass-through.
+- **Observability-first**: OpenTelemetry at startup. Traces, metrics, logs to Grafana LGTM.
+- **Integration tests first**: Core logic tested against Postgres, NATS, S3. Unit tests cover pure functions.
+- **Conventional commits**: Enforced by pre-commit hooks.
 
 ---
 
